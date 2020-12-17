@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__version__ = 0.1
+__version__ = 0.2
 __doc__ = """Simplify login to Pocket"""
 
 setup(
@@ -9,7 +9,7 @@ setup(
  description = __doc__,
  py_modules = ["pocket_login"],
  install_requires = [
-  'pocket_api',
+  'pocket',
  ],
  classifiers = [
   'Development Status :: 4 - Beta',
